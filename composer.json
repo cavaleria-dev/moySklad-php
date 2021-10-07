@@ -1,0 +1,23 @@
+{
+    "name": "cavaleria/moy-sklad",
+    "description": "PHP bindings to MoySkad API v1.2",
+    "type": "php",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Cavaleria\\MoySklad\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cavaleria",
+            "email": "hello@cavaleria.ru",
+            "homepage": "https://cavaleria.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
